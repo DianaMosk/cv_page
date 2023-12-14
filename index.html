@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://placehold.co/600x400" alt="My avatar" class="avatar">
+        <h1 class="title__main">Moskalenko Diana | CV page</h1>
+        <h2 class="title__subtitle">Frontend developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h2>Skills</h2>
+            <details>
+                <summary>My skills:</summary>
+                <ol class="skills__ol">
+                    <li>1. Figma</li>
+                    <li>2. VS Code</li>
+                    <li>3. HTML&CSS</li>
+                    <li>4. Python</li>
+                </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h2>Article about me</h2>
+            <p>
+                My name is Diana. I am 16 years old. I was born and live in Dyatkovo. I am developing in the IT field. I am interested in Python programming and web desing. After finishing school I plan to move to Moscow.
+            </p>
+        </article>
+        <section class="gallery">
+            <h2>My works</h2>
+            <img src="https://placehold.co/400x600" alt="My work#1">
+            <img src="https://placehold.co/400x600" alt="My work#2">
+            <img src="https://placehold.co/400x600" alt="My work#3">
+        </section>
+        <hr class="separator">
+        <section class="video"><iframe width="640" height="360" src="https://www.youtube.com/embed/4-UbHw8eDzM" title="[10 HOURS] Happy Monkey Circle (meme)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>
+        <section class="hobbies">
+            <h3>My hobbies</h3>
+            <details>
+                <summary>Hobbies list</summary>
+                <ul>
+                    <li>Drive car(zhiguli)</li>
+                    <li>Read books</li>
+                    <li>Teach physics</li>
+                </ul>
+            </details>
+        </section>
+        <section class="education">
+            <h3>Education</h3>
+            <table class="education__table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Profession</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>Wed Designer</td>
+                        <td>2023-2024</td>
+                    </tr>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>Python</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td>MBOU Dyatkovskaya secondary school#1</td>
+                        <td>Obsee</td>
+                        <td>2013-2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="quote">
+            <blockquote>
+                Мы понимаем на уровне понимания 😎 <i> ©Лучшая женщина</i>
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="mailto:moskalenkodv2017@gmail.com" method="post" class="interaction__form">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    <label for="firstNameID">First Name</label>
+                    <input type="text" class="Form__input" id="firstNameID" name="firstName" placeholder="Type your first name" required>
+                    <label for="secondNameID">Second Name</label>
+                    <input type="text" class="Form__input" id="secondNameID" name="secondName" placeholder="Type your second name" required>
+                    <label for="emailID">Email</label>
+                    <input type="email" name="email" id="emailID" placeholder="Type your mail" required class="Form__input">
+                </fieldset>
+                <textarea name="questions" id="questionsID" cols="30" rows="10" class="questions" placeholder="Ask me"></textarea>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address class="contacts">
+            <br>
+            <a href="tel:+79000000000" class="contacts__link">+79000000000</a>
+            <br>
+            <br>
+            <a href="mailto:moskalenkodv2017@gmail.com " class="contacts__link">moskalenkodv2017@gmail.com</a>
+        </address>
+    </footer>
+</body>
+</html>
