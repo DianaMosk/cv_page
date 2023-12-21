@@ -1,6 +1,6 @@
-#My first web site on HTML&CSS - CV Page
+# My first web site on HTML&CSS - CV Page
 
-##Author - Diana Moskalenko | No license
+## Author - Diana Moskalenko | No license
 
 [Go to my site](https://dianamosk.github.io/cv_page/)
 
